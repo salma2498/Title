@@ -2,6 +2,7 @@ package hello;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.Test;
 
 public class SampleTest {
@@ -9,7 +10,7 @@ public class SampleTest {
 	@Test
 	public void mtest()
 	{
-		WebDriver driver=new ChromeDriver();
+		WebDriver driver=new FirefoxDriver();
 		driver.get("https://www.amazon.com");
 	}
 
