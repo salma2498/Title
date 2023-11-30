@@ -10,8 +10,9 @@ public class SampleTest {
 	@Test
 	public void mtest()
 	{
-		WebDriver driver=new FirefoxDriver();
+		WebDriver driver=new ChromeDriver();
 		driver.get("https://www.amazon.com");
+		System.out.println("Hi");
 	}
 
 }
